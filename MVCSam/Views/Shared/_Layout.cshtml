@@ -1,4 +1,4 @@
-﻿@model MVCSam.ViewModels.RandomMovieViewModel
+﻿
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,12 +11,12 @@
 
 </head>
 <body>
-@Html.Partial("_NavBar",Model.Movie)
+@Html.Partial("_NavBar")
 <div class="container body-content">
     @RenderBody()
     <hr/>
     <footer>
-        <p>&copy; @DateTime.Now.Year - 我的 ASP.NET 应用程序</p>
+        <p>&copy; @DateTime.Now.Year - ASP.NET MVC5 Sample</p>
     </footer>
 </div>
 
