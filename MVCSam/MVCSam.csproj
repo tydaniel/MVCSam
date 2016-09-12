@@ -182,9 +182,30 @@
     <Compile Include="Migrations\201609120326026_PopulateMembershipTypes.Designer.cs">
       <DependentUpon>201609120326026_PopulateMembershipTypes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201609120646035_MembershipTypeName.cs" />
+    <Compile Include="Migrations\201609120646035_MembershipTypeName.Designer.cs">
+      <DependentUpon>201609120646035_MembershipTypeName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201609120726302_CustomerBithday.cs" />
+    <Compile Include="Migrations\201609120726302_CustomerBithday.Designer.cs">
+      <DependentUpon>201609120726302_CustomerBithday.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201609120835251_AddGenre.cs" />
+    <Compile Include="Migrations\201609120835251_AddGenre.Designer.cs">
+      <DependentUpon>201609120835251_AddGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201609120852504_AddMovies.cs" />
+    <Compile Include="Migrations\201609120852504_AddMovies.Designer.cs">
+      <DependentUpon>201609120852504_AddMovies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201609120857299_InsertGenre.cs" />
+    <Compile Include="Migrations\201609120857299_InsertGenre.Designer.cs">
+      <DependentUpon>201609120857299_InsertGenre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -208,6 +229,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Views\Movies\Details.cshtml" />
     <None Include="_bin_deployableAssemblies\x86\sqlcese40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceqp40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceme40.dll" />
@@ -295,6 +317,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201609120326026_PopulateMembershipTypes.resx">
       <DependentUpon>201609120326026_PopulateMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201609120646035_MembershipTypeName.resx">
+      <DependentUpon>201609120646035_MembershipTypeName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201609120726302_CustomerBithday.resx">
+      <DependentUpon>201609120726302_CustomerBithday.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201609120835251_AddGenre.resx">
+      <DependentUpon>201609120835251_AddGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201609120852504_AddMovies.resx">
+      <DependentUpon>201609120852504_AddMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201609120857299_InsertGenre.resx">
+      <DependentUpon>201609120857299_InsertGenre.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

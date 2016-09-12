@@ -11,6 +11,6 @@ namespace MVCSam.Models
         public short SignUpFee { get; set; }
         public byte Duration { get; set; }
         public byte DiscountRate { get; set; }
-
+        public string TypeName { get; set; }
     }
 }
